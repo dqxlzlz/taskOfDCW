@@ -1,0 +1,42 @@
+<!-- 管理员端 -->
+<tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+
+
+    <!-- 第一个页面 -->
+    <view wx:if="{{tabs[0].isActive}}">
+        <view class="title">用户的意见反馈</view>
+        <view>{{textVal}}</view>
+    </view>
+    <!-- 第二个页面 -->
+
+
+    <!-- 输入框中输入文本 -->
+    <view wx:else>
+        <view class="all">
+            <view class="passage">
+                <view class="titleOfPassage">文章的标题与图片</view>
+                <textarea class="_title" cols="30" rows="10" value="{{textVal}}" bindinput="handleTextInput" placeholder="请输入文章的标题"></textarea>
+            </view>
+
+
+        <!-- 选择图片并上传，点击图片可以取消选择 -->
+                <view class="img">
+                    <view class="fb_tool">
+                        <button class="but_up" bindtap="handleChooseImg">+</button>
+                        <view class="up_img_item" wx:for="{{chooseImgs}}"
+                                wx:key="#this"
+                                bindtap="handleRemoveImg"
+                                data-index="{{index}}">
+                                <upImage src="{{item}}"></upImage>
+                        </view>
+                        <view class="blank"></view>
+                    </view>
+        
+                
+
+                <!-- 提交按钮 -->
+                <view class="up"><button type="warn" bindtap="handleFormSubmit" class="upLoad">提交</button></view>
+            </view>
+        </view>
+    </view>
+</tabs>

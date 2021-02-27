@@ -1,0 +1,50 @@
+<!-- 关于我们页面 -->
+
+
+<!-- 导航栏的开始 -->
+<tabs tabs="{{tabs}}" binditemChange="handleItemChange"></tabs>
+
+<!-- 内容的开始 -->
+
+
+<!-- 第一个导航栏的开始 -->
+<view wx:if="{{tabs[0].isActive}}">
+    <view class="content">
+        <view class="content1">
+        中国大学生创业网始建于2002年9月，并已在国际顶级域名数据库中记录的专业性服务网站，亦是集教育、管理、服务为一体的多功能综合性网站。网站在中南大学学生创新创业指导中心的指导下，实现公司化运作，完全由学生自主管理，运行和维护。在铁道和本部两个校区共拥有3间办公室，配套设施齐全，现拥有员工70多名。2007年，网站被评为全国“十佳”校园服务网站。
+        </view>
+    </view>
+</view>
+
+
+
+<!-- 第二个导航栏的开始 -->
+
+
+<view wx:if="{{tabs[1].isActive}}">
+    <view class="content">
+        <view class="content1" selectable="true">
+            中国大学生创业网采用了现代化专业的公司化管理模式，由中南大学创新创业指导中心中心主任杨芳老师主要负责指导建设。网站以理事会为核心，设立了保证网站正常运作的信息策划部、记者采访部、美术设计部和网络技术部等主要部门，以及人力资源部、宣传推广部、培训部和E创俱乐部等辅助部门。
+        </view>
+    </view>
+    <view class="content2" >该网站的管理部门有:</view>
+    <view class="detail" selectable="true" bindtap="hanleDetail">
+        <view class="_detail"
+         wx:for="{{partment}}" wx:key="id" index="index">
+             <view> {{item.id+1}}. {{item.content}}</view>     
+         </view>
+    </view>
+</view>
+
+
+<!-- 第三个导航栏的开始 -->
+
+
+
+<view wx:if="{{tabs[2].isActive}}">
+    <view class="content">
+        <view class="content1" selectable="true">
+            “中国大学生创业网”受到各界广泛重视。湖南省人民政府副省长许云昭，湖南省科协主席何继善院士、副主席刘宝琛院士，以及古德生院士、曾庆元院士、刘业翔院士等均为网站开通欣然题词。
+        </view>
+    </view>
+</view>

@@ -1,0 +1,2 @@
+<!-- 登录获取用户的数据 -->
+<button type="primary" plain bindgetuserinfo="handleGetUserInfo" open-type="getUserInfo">登录</button>

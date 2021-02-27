@@ -1,0 +1,56 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/about/about",
+        "pages/cy/cy",
+        "pages/mine/mine",
+        "pages/search/search",
+        "pages/aboutUs/aboutUs",
+        "pages/login/login",
+        "pages/test/test",
+        "pages/manager/manager",
+        "pages/joinUs/joinUs",
+        "pages/outer/outer"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#eb4450",
+        "navigationBarTitleText": "中国大学生创业网",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#999",
+        "selectedColor": "#ff2d4a",
+        "backgroundColor": "#fafafa",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icon/home(n).png",
+                "selectedIconPath": "icon/home(y).png"
+            },
+            {
+                "pagePath": "pages/about/about",
+                "text": "资讯",
+                "iconPath": "icon/us(n).png",
+                "selectedIconPath": "icon/us(y).png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "icon/comment(n).png",
+                "selectedIconPath": "icon/comment(y).png"
+            },
+            {
+                "pagePath": "pages/manager/manager",
+                "text": "管理员",
+                "iconPath": "icon/manager(n).png",
+                "selectedIconPath": "icon/manager(y).png"
+            }
+        ]
+    },
+
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

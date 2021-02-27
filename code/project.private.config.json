@@ -1,0 +1,77 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "登录页面",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "详细",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录测试",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "了解我们",
+          "pathName": "pages/aboutUs/aboutUs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/page1/page1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "feedback",
+          "pathName": "pages/page1/page1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "manager",
+          "pathName": "pages/manager/manager",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "管理员端",
+          "pathName": "pages/manager/manager",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "button",
+          "pathName": "pages/joinUs/joinUs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "aboutUs",
+          "pathName": "pages/aboutUs/aboutUs",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

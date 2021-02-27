@@ -1,0 +1,12 @@
+<!-- 通过跳转到公众号文章来显示详细信息 -->
+<view class='wrapper'>
+    <button class='wepay' bindtap='handleGoTo'>点击跳转</button>
+  </view>
+
+<!-- 图片 -->
+
+
+  <view>
+    <image 
+    src="https://bkimg.cdn.bcebos.com/pic/faedab64034f78f0ead777c078310a55b3191c20?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" />
+</view>

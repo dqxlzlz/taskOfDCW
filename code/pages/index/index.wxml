@@ -1,0 +1,53 @@
+<view class="para_index">
+
+
+    <!-- 搜索框结构 -->
+    <searchInput></searchInput>
+
+
+    <!--轮播图开始-->
+    <view class="index_swiper">
+        <swiper autoplay="{{true}}" 
+        indicator-dots="{{true}}" 
+        interval="3000"
+        circular="{{true}}"
+        >
+            <swiper-item
+            wx:for="{{SwiperList}}"
+            wx:key="id">
+                <navigator >
+                    <image mode="widthFix" src="{{item.image_src}}"/>
+                    <view class="txt">{{item.txt}}</view>
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+
+
+    <!-- 块的开始 -->
+    <scroll-view class="major" scroll-x="{{true}}">
+        <view class="majorCo">
+            <navigator wx:for="{{icon}}"wx:key="id" class="box" url="{{item.toWhere}}">
+                <image class="pic" src="{{item.loca}}" />
+                <view class="txt">{{item.txt}}</view>
+            </navigator>
+        </view>
+    </scroll-view>
+
+
+    <!-- 最下方文章的开始 -->
+    <view class="scsj">
+        <view class="container">
+            <view class="pubTitle">
+                <veiw class="txt">双创大事件</veiw>
+                <navigator class="more" url="../about/about">更多> </navigator>
+            </view>    
+            <view class="wkMain">
+                <navigator wx:for="{{scsj}}" wx:key="id" class="scsj" url="{{item.toWhere}}">
+                    <image class="pic" src="{{item.image}}"/>
+                    <view class="txt">{{item.txt}}</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>

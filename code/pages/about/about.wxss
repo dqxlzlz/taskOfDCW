@@ -1,0 +1,27 @@
+.txt {
+    display: inline-block;
+    padding: 20rpx 10rpx;
+    width: 330rpx;
+}
+
+.picture {
+    display: inline-block;
+    padding: auto;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 30rpx;
+}
+
+.pic {
+    width: 350rpx;
+}
+
+.fa {
+    background: #f0f4f8c0;
+}
+
+.hang {
+    padding: 15rpx 5rpx;
+}

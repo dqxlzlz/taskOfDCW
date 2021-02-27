@@ -1,0 +1,46 @@
+<!-- 登录界面 -->
+<view class="user_info_wrap">
+    <view class="user_img_wrap" wx:if="{{userinfo.avatarUrl}}">
+        <image class="user_bg"  src="{{userinfo.avatarUrl}}" />
+        <view class="user_info">
+            <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
+            <view class="user_name">{{userinfo.nickName}}</view>
+        </view>
+    </view>
+    <view wx:else class="user_but">
+        <navigator url="/pages/login/login">登录</navigator>
+    </view>
+
+
+    <!-- 下方的选择框 -->
+</view>
+<view class="first">
+    <navigator url="">
+        <view class="wdzl">
+            我的资料
+        </view>
+    </navigator>
+    <navigator >
+        <view class="wdsc">
+            我的收藏
+        </view>
+    </navigator>
+</view>
+<view class="second">
+    <navigator url="../page1/page1">
+        <view class="yjfk">
+            意见反馈
+        </view>
+    </navigator>
+    <navigator >
+        <view class="gywm">
+            关于我们
+        </view>
+    </navigator>
+    <navigator >
+        <view class="lxwm">
+            <text>联系我们   </text>
+            <text >10086</text>
+        </view>
+    </navigator>
+</view>

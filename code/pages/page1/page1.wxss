@@ -1,0 +1,44 @@
+page {
+    background-color: #eeeeee9d;
+}
+
+.fb_main {
+    padding: 20rpx;
+    color: #666;
+}
+
+.flex_tips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+text {
+    width: 30%;
+    height: 60rpx;
+    padding: 10rpx;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 40rpx 10rpx;
+    font-size: 42rpx;
+}
+
+.fb_title {
+    padding: 60rpx;
+    font-size: 43rpx;
+}
+
+textarea {
+    background-color: #fff;
+    margin-top: 60rpx;
+    font-size: 43rpx;
+    line-height: 60rpx;
+    padding: 10rpx;
+}
+
+.form_bt_wrap {
+    margin-top: 20rpx;
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+}

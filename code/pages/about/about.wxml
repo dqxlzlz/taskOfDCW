@@ -1,0 +1,16 @@
+
+<!-- 资讯页面 -->
+
+
+<view class="fa">
+    <navigator url="" class="box" wx:for="{{passage}}" wx:key="id">
+        <view class="hang">
+            <view class="txt">
+                <text class="title">{{item.title}}</text>
+            </view>
+            <view class="picture">
+                <image src="{{item.image}}" class="pic" mode="widthFix" />
+            </view>
+        </view>
+    </navigator>
+</view>

@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60rpx;
+    padding: 20rpx 20rpx;
+}
+
+.para {
+    text-indent: 2em;
+}
+
+.title_1 {
+    display: flex;
+}
+
+.first,
+.second,
+.third {
+    width: 230rpx;
+    text-align: center;
+    padding: 10rpx 0rpx;
+    font-size: 50rpx;
+}
+
+.detail {
+    margin: 20rpx 0rpx;
+}
+
+._detail {
+    text-align: center;
+    align-items: center;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+
+.content1 {
+    text-indent: 2em;
+}
+
+.content2 {
+    text-indent: 3em;
+}
+
+.content {
+    margin: 25rpx;
+}

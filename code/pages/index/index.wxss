@@ -1,0 +1,76 @@
+swiper image {
+    width: 100%;
+}
+
+swiper .txt {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35rpx;
+}
+
+swiper {
+    width: 750rpx;
+    height: 450rpx;
+}
+
+.major .majorCo .box {
+    text-align: center;
+    padding: 10rpx 26rpx;
+    width: 170rpx;
+}
+
+.majorCo {
+    display: flex;
+    padding: 30rpx 0rpx;
+}
+
+.major .pic {
+    height: 100rpx;
+    width: 100rpx;
+}
+
+.gg {
+    text-indent: 20rpx;
+    text-align: left;
+    line-height: 10rpx;
+}
+
+.major .txt {
+    font-size: 24rpx;
+    flex-wrap: nowrap;
+}
+
+.pubTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pubTitle .txt {
+    font-size: 40rpx;
+    padding: 10rpx 15rpx;
+}
+
+.pubTitle .more {
+    padding: 10rpx 15rpx;
+    font-size: 30rpx;
+}
+
+.scsj {
+    background: #f0f3f8;
+    padding: 50rpx 10rpx 70rpx;
+}
+
+.scsj .pic {
+    width: 650rpx;
+    height: 290rpx;
+    padding: 0rpx 20rpx;
+}
+
+.scsj .txt {
+    font-weight: bolder;
+    font-size: 30rpx;
+}
+
+.scsj {
+    padding: 20rpx 5rpx;
+}
