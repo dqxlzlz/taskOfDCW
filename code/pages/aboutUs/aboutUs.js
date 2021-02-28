@@ -43,28 +43,6 @@ Page({
             id: 6,
             content: "新闻发言人"
         }],
-        title: [{
-            id: 0,
-            _content: "网络技术部"
-        }, {
-            id: 1,
-            _content: "记者采访部"
-        }, {
-            id: 2,
-            _content: "美术设计部"
-        }, {
-            id: 3,
-            _content: "信息策划部"
-        }, {
-            id: 4,
-            _content: "人力资源部"
-        }, {
-            id: 5,
-            _content: "宣传推广部"
-        }, {
-            id: 6,
-            _content: "新闻发言人"
-        }],
         content: [{
                 id: 0,
                 detail: "软件开发分部，硬件维护分部"
