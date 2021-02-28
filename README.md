@@ -22,3 +22,4 @@ the become regluar member of ChinaDXSCY
 4. 很多的内容来自百度上(寒假在家登不上去CHINAdxscy.com)
 5. 很多的地方不太合理，等待后期的进一步的改进
 6. 总的来说，寒假在家的开发过程学到了不少的JavaScript、微信小程序开发的知识
+7. 若有不恰当的地方，希望学长指出。
