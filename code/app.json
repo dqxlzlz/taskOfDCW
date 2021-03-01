@@ -10,7 +10,8 @@
         "pages/test/test",
         "pages/manager/manager",
         "pages/joinUs/joinUs",
-        "pages/outer/outer"
+        "pages/outer/outer",
+        "pages/page1/page1"
     ],
     "window": {
         "backgroundTextStyle": "light",
