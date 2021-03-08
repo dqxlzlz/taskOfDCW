@@ -1,7 +1,7 @@
 # taskOfDCW
 the become regluar member of ChinaDXSCY
 
-
+***
 # 转正任务
 
 ### 创业网小程序数据前端开发
@@ -13,8 +13,8 @@ the become regluar member of ChinaDXSCY
 ##### 3. web前端(js)
 
 ##### 4.开发出管理员、用户两端
-
-
+***
+自己的感悟，
 
 1. 这次开发的微信小程序模仿b站上的一个项目，很多地方为开发完成，很多链接都还是点不动
 2. 管理员端与用户端放在了一起，后期再将其改进
@@ -24,3 +24,4 @@ the become regluar member of ChinaDXSCY
 6. 很多的地方不太合理，等待后期的进一步的改进
 7. 总的来说，寒假在家的开发过程学到了不少的JavaScript、微信小程序开发的知识
 8. 若有不恰当的地方，希望学长指出。
+9. 项目还没开发完成，待后期开发
